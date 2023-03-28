@@ -1,4 +1,4 @@
-export default function Search(){
+export default function Qualifications(){
     return(
         <>
         this is Serach
