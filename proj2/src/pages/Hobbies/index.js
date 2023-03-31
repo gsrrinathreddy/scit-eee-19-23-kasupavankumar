@@ -54,7 +54,7 @@ const itemData = [
   },
   {
     img: 'https://images.unsplash.com/photo-1522770179533-24471fcdba45',
-    title: 'Camera',
+    title: 'Food',
     
   },
   {
@@ -84,7 +84,7 @@ const itemData = [
   },
   {
     img: 'https://images.unsplash.com/photo-1518756131217-31eb79b20e8f',
-    title: 'Fern',
+    title: 'Cricket',
     
   },
   {
