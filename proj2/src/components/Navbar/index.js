@@ -14,6 +14,7 @@ import Tooltip from '@mui/material/Tooltip';
 import MenuItem from '@mui/material/MenuItem';
 import AdbIcon from '@mui/icons-material/Adb';
 import { Link } from 'react-router-dom';
+import Pavan from '../../assets/Pavan.jpg'
 
 const pages = ['Aboutus','Skills','Hobbies','Qualifications'];
 const settings = ['Profile', 'Account', 'Dashboard', 'Logout'];
@@ -117,7 +118,7 @@ function Navbar() {
           </Typography>
           <Box sx={{ flexGrow: 1, display: { xs: 'none', md: 'flex' } }}>
             {pages.map((page) => (
-              <Link to = {page} style = {{textDecorationColor : 'None'}}>  
+              <Link to = {page} style = {{textDecorationColor : 'arrow'}}>  
               <Button
                 key={page}
                 onClick={handleCloseNavMenu}
@@ -133,7 +134,7 @@ function Navbar() {
           <Box sx={{ flexGrow: 0 }}>
             <Tooltip title="Open settings">
               <IconButton onClick={handleOpenUserMenu} sx={{ p: 0 }}>
-                <Avatar alt="Remy Sharp" src="/static/images/avatar/2.jpg" />
+                <Avatar alt="Pavan" src={Pavan} />
               </IconButton>
             </Tooltip>
             <Menu
