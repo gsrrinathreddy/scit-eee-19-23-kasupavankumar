@@ -12,11 +12,11 @@ import Avatar from '@mui/material/Avatar';
 import Button from '@mui/material/Button';
 import Tooltip from '@mui/material/Tooltip';
 import MenuItem from '@mui/material/MenuItem';
-import AdbIcon from '@mui/icons-material/Adb';
+import KeyboardDoubleArrowRightIcon from '@mui/icons-material/KeyboardDoubleArrowRight';
 import { Link } from 'react-router-dom';
 import Pavan from '../../assets/Pavan.jpg'
 
-const pages = ['Aboutus','Skills','Hobbies','Qualifications'];
+const pages = ['Aboutus','Skills','Experience','Hobbies','Qualifications','Certifications','Contactme','Workshops','Projects'];
 const settings = ['Profile', 'Account', 'Dashboard', 'Logout'];
 
 function Navbar() {
@@ -39,10 +39,10 @@ function Navbar() {
   };
 
   return (
-    <AppBar position="static" sx={{backgroundColor:"black"}}>
+    <AppBar position="static" sx={{backgroundColor:"blue"}}>
       <Container maxWidth="xl">
         <Toolbar disableGutters>
-          <AdbIcon sx={{ display: { xs: 'none', md: 'flex' }, mr: 1 }} />
+          <KeyboardDoubleArrowRightIcon sx={{ display: { xs: 'none', md: 'flex' }, mr: 1 }} />
           <Typography
             variant="h6"
             noWrap
@@ -58,7 +58,7 @@ function Navbar() {
               textDecoration: 'none',
             }}
           >
-            LOGO
+            PORTFOLIO
           </Typography>
 
           <Box sx={{ flexGrow: 1, display: { xs: 'flex', md: 'none' } }}>
@@ -97,7 +97,7 @@ function Navbar() {
               ))}
             </Menu>
           </Box>
-          <AdbIcon sx={{ display: { xs: 'flex', md: 'none' }, mr: 1 }} />
+          <KeyboardDoubleArrowRightIcon sx={{ display: { xs: 'flex', md: 'none' }, mr: 1 }} />
           <Typography
             variant="h5"
             noWrap
@@ -114,11 +114,11 @@ function Navbar() {
               textDecoration: 'none',
             }}
           >
-            LOGO
+            PORTFOLIO
           </Typography>
           <Box sx={{ flexGrow: 1, display: { xs: 'none', md: 'flex' } }}>
             {pages.map((page) => (
-              <Link to = {page} style = {{textDecorationColor : 'arrow'}}>  
+              <Link to = {page} style={{textDecorationColor:'none'}}>  
               <Button
                 key={page}
                 onClick={handleCloseNavMenu}

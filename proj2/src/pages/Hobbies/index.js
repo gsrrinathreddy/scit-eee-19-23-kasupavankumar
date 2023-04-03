@@ -40,74 +40,41 @@ export default function Hobbies() {
 
 const itemData = [
   {
-    img: 'https://images.unsplash.com/photo-1551963831-b3b1ca40c98e',
-    title: 'Breakfast',
+    img: 'https://cdn-prod.medicalnewstoday.com/content/images/articles/320/320056/man-gobbling-down-pasta.jpg',
+    title: 'Eating',
     
     rows: 2,
     cols: 2,
     featured: true,
   },
   {
-    img: 'https://images.unsplash.com/photo-1551782450-a2132b4ba21d',
-    title: 'Burger',
+    img: 'https://www.siasat.com/wp-content/uploads/2023/01/Cricket.jpg',
+    title: 'Playing Cricket',
     
   },
   {
-    img: 'https://images.unsplash.com/photo-1522770179533-24471fcdba45',
-    title: 'Food',
+    img: 'https://www.how2become.com/wp-content/uploads/2018/06/Benefits-of-Puzzle-Solving-for-Adults-Benefit-1-600x400.jpeg',
+    title: 'Solving Puzzles',
     
   },
   {
-    img: 'https://images.unsplash.com/photo-1444418776041-9c7e33cc5a9c',
-    title: 'Coffee',
-    
-    cols: 2,
-  },
-  {
-    img: 'https://images.unsplash.com/photo-1533827432537-70133748f5c8',
-    title: 'Hats',
+    img: 'https://static.freemake.com/blog/wp-content/uploads/2013/10/rent-movies-online.jpg',
+    title: 'Watching Movies',
     
     cols: 2,
   },
+
   {
-    img: 'https://images.unsplash.com/photo-1558642452-9d2a7deb7f62',
-    title: 'Honey',
-    
-    rows: 2,
-    cols: 2,
-    featured: true,
-  },
-  {
-    img: 'https://images.unsplash.com/photo-1516802273409-68526ee1bdd6',
-    title: 'Basketball',
+    img: 'https://images.indianexpress.com/2022/07/book.jpg',
+    title: 'Reading Books',
     
   },
-  {
-    img: 'https://images.unsplash.com/photo-1518756131217-31eb79b20e8f',
-    title: 'Cricket',
-    
-  },
-  {
-    img: 'https://images.unsplash.com/photo-1597645587822-e99fa5d45d25',
-    title: 'Mushrooms',
-    
-    rows: 2,
-    cols: 2,
-  },
-  {
-    img: 'https://images.unsplash.com/photo-1567306301408-9b74779a11af',
-    title: 'Tomato basil',
-    
-  },
-  {
-    img: 'https://images.unsplash.com/photo-1471357674240-e1a485acb3e1',
-    title: 'Sea star',
-    
-  },
-  {
-    img: 'https://images.unsplash.com/photo-1589118949245-7d38baf380d6',
-    title: 'Bike',
   
-    cols: 2,
+ 
+  {
+    img: 'https://thumbs.dreamstime.com/z/surfing-internet-blog-chat-communication-concept-76827175.jpg',
+    title: 'Surfing Internet',
+    
   },
+ 
 ];
